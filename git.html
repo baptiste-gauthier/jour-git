@@ -3,6 +3,7 @@
     <head>
         <title> Tableau commande GIT</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="git.css">
     </head>
 
     <body>
@@ -13,37 +14,60 @@
 
         <section id="tableau">
             <table>
-                <td class="commande">
+                <tr>
+                    <td> git init</td>
+                    <td>crée un nouveau dépôt ;</td>
+                </tr>
 
-                    <tr>git init</tr>
-                    <tr>git clone​</tr>
-                    <tr>git add</tr>
-                    <tr>git commit​</tr>
-                    <tr>git branch</tr>
-                    <tr>git merge</tr>
-                    <tr>git rebase​</tr>
-                    <tr>git log​</tr>
-                    <tr>git push​</tr>
-                    <tr>git pull​</tr>
-                    <tr>git stash</tr>
+                <tr>
+                    <td> git clone</td>
+                    <td> clone un dépôt distant ;</td>
+                </tr>
 
-                </td>
+                <tr>
+                    <td> git add</td>
+                    <td> ajoute de nouveaux objets blobs dans la base des objets pour chaque fichier modifié depuis le dernier commit. Les objets précédents restent inchangés ;</td>
+                </tr>
 
-                <td class="description">
+                <tr>
+                    <td> git commit​</td>
+                    <td> intègre la somme de contrôle SHA-1 d'un objet tree et les sommes de contrôle des objets commits parents pour créer un nouvel objet commit ;</td>
+                </tr>
 
-                    <tr>  crée un nouveau dépôt ; </tr>
-                    <tr> clone un dépôt distant ; </tr>
-                    <tr> ajoute de nouveaux objets blobs dans la base des objets pour chaque fichier modifié depuis le dernier commit. Les objets précédents restent inchangés ;</tr>
-                    <tr> intègre la somme de contrôle SHA-1 d'un objet tree et les sommes de contrôle des objets commits parents pour créer un nouvel objet commit ;</tr>
-                    <tr> liste les branches ;</tr>
-                    <tr> fusionne une branche dans une autre ;</tr>
-                    <tr> déplace les commits de la branche courante devant les nouveaux commits d’une autre branche ;</tr>
-                    <tr> affiche la liste des commits effectués sur une branche ;</tr>
-                    <tr> publie les nouvelles révisions sur le remote. (La commande prend différents paramètres) ;</tr>
-                    <tr> récupère les dernières modifications distantes du projet (depuis le Remote) et les fusionne dans la branche courante ;</tr>
-                    <tr> stocke de côté un état non commité afin d’effectuer d’autres tâches.</tr>
+                <tr>
+                    <td> git branch</td>
+                    <td> liste les branches ;</td>
+                </tr>
 
-                </td>
+                <tr>
+                    <td> git merge</td>
+                    <td> fusionne une branche dans une autre ;</td>
+                </tr>
+
+                <tr>
+                    <td> git rebase</td>
+                    <td> déplace les commits de la branche courante devant les nouveaux commits d’une autre branche ;</td>
+                </tr>
+
+                <tr>
+                    <td> git log</td>
+                    <td> affiche la liste des commits effectués sur une branche ;</td>
+                </tr>
+
+                <tr>
+                    <td> git push​</td>
+                    <td> fusionne une branche dans une autre ;</td>
+                </tr>
+
+                <tr>
+                    <td> git pull​</td>
+                    <td> récupère les dernières modifications distantes du projet (depuis le Remote) et les fusionne dans la branche courante ;</td>
+                </tr>
+
+                <tr>
+                    <td> git stash​</td>
+                    <td> stocke de côté un état non commité afin d’effectuer d’autres tâches.</td>
+                </tr>
 
             </table>
         </section>   
@@ -54,3 +78,5 @@
 
 
 </html>
+
+
